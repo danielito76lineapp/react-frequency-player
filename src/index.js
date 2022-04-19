@@ -1,3 +1,5 @@
+// The basic code made by npx create-react-app
+
 // import React from 'react';
 // import ReactDOM from 'react-dom/client';
 // import './index.css';
@@ -18,45 +20,28 @@
 
 
 
-// import { StrictMode } from "react";
-// import ReactDOM from "react-dom";
+//New code for frequency player
 
-// // import Component from "./Component";
-// import Hook from "./Hook";
-
-// const rootElement = document.getElementById("root");
-// ReactDOM.render(
-//   <StrictMode>
-//     {/* <Component /> */}
-//     <Hook />
-//   </StrictMode>,
-//   rootElement
-// );
-
-
-
-
-
-
-
-
-import ReactDOM from "react-dom/client";
+import { StrictMode } from "react";
+import ReactDOM from "react-dom";
 
 // import Component from "./Component";
-import Test from "./Test";
+import Hook from "./Hook";
 
-// const rootElement = document.getElementById("root");
-// ReactDOM.render(
-//   <StrictMode>
-//     {/* <Component /> */}
-//     <Test />
-//   </StrictMode>,
-//   rootElement
-// );
+const rootElement = document.getElementById("root");
+ReactDOM.render(
+  <StrictMode>
+    {/* <Component /> */}
+    <Hook />
+  </StrictMode>,
+  rootElement
+);
 
-const container = document.getElementById('root');
-const root = ReactDOM.createRoot(container);
 
-root.render(<Test />);
+
+
+
+
+
 
 
